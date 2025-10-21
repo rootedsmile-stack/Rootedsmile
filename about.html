@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — RootedSmile</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="About RootedSmile — gentle mineral tooth powder.">
+</head>
+<body>
+  <div class="announce">Free shipping for orders over $35</div>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <a href="index.html"><img src="assets/logo-rootedsmile.png" alt="RootedSmile logo"></a>
+      </div>
+      <div class="header-icons">
+        <a href="product.html?slug=toothmagic" title="Cart">
+          <img class="icon" src="assets/icon-cart.svg" alt="Cart">
+        </a>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-card">
+        <h1>Our Story</h1>
+        <p>RootedSmile started with a simple goal: a clean, non‑herbal tooth powder that feels gentle yet effective. We use mineral‑rich clays and carefully selected ingredients to help you feel ZingFree — every brush.</p>
+        <div class="chips">
+          <span class="chip">Clean ingredients</span>
+          <span class="chip">Small batch</span>
+          <span class="chip">No harsh foaming agents</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1200&auto=format&fit=crop" alt="Natural ingredients" style="width:100%;height:100%;object-fit:cover;border-radius:12px;">
+      </div>
+    </section>
+
+    <section class="hero-card" style="margin-bottom:30px">
+      <h2 style="margin-top:0">What makes ToothMagic different?</h2>
+      <ul>
+        <li>Mild, low‑foam clean without a “zing.”</li>
+        <li>Mineral support: gentle polishing clays.</li>
+        <li>Simple routine, travel‑friendly tin.</li>
+      </ul>
+      <div class="cta" style="margin-top:12px">
+        <a class="button" href="product.html?slug=toothmagic">Shop ToothMagic</a>
+        <a class="button secondary" href="index.html">Back to Home</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="cols">
+        <div>
+          <h3 style="margin:0 0 8px">Newsletter</h3>
+          <p class="muted">Subscribe to product drops and offers.</p>
+          <div class="news">
+            <input placeholder="Your email address">
+            <button>Subscribe</button>
+          </div>
+        </div>
+        <div>
+          <h3 style="margin:0 0 8px">Shop</h3>
+          <div><a href="product.html?slug=toothmagic">ToothMagic Powder</a></div>
+        </div>
+        <div>
+          <h3 style="margin:0 0 8px">About</h3>
+          <div><a href="about.html">Our Story</a></div>
+          <div><a href="#">Ingredients</a></div>
+        </div>
+        <div>
+          <h3 style="margin:0 0 8px">Support</h3>
+          <div><a href="shipping-returns.html">Shipping & Returns</a></div>
+          <div><a href="#">Privacy Policy</a></div>
+          <div><a href="#">Contact</a></div>
+        </div>
+      </div>
+      <div style="margin-top:22px;color:var(--muted)">© <span id="year"></span> Rooted Smile</div>
+    </footer>
+  </div>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RootedSmile Store</title>
+<link rel="stylesheet" href="styles.css">
+<meta name="description" content="RootedSmile mineral tooth powder — clean ingredients, fast checkout.">
+</head>
+<body>
+<div class="announce">Free shipping for orders over $35</div>
+<div class="container">
+<header class="header">
+  <div class="brand"><img src="assets/logo-rootedsmile.png" alt="RootedSmile logo"></div>
+  <div class="header-icons"><a href="product.html?slug=toothmagic" title="Cart"><img class="icon" src="assets/icon-cart.svg" alt="Cart"></a></div>
+</header>
+<section class="hero">
+  <div class="hero-card">
+    <h1>Clean. Simple. ZingFree.</h1>
+    <p>Discover the natural way to being zing free without herbal based tooth powder. Gentle, effective.</p>
+    <div class="chips"><span class="chip">Free shipping for orders over $35</span></div>
+    <div class="cta">
+      <a class="button" href="#products">Shop products</a>
+      <a class="button secondary" href="product.html?slug=toothmagic">View ToothMagic</a>
+    </div>
+  </div>
+  <div class="hero-card">
+    <img src="https://images.unsplash.com/photo-1611077543574-9d9b0f2c0f7e?q=80&w=1200&auto=format&fit=crop" alt="Hero image" style="width:100%;height:100%;object-fit:cover;border-radius:12px;">
+  </div>
+</section>
+<div class="search"><input class="input" id="search" placeholder="Search products..."></div>
+<section id="products" class="grid"></section>
+<footer class="footer">
+  <div class="cols">
+    <div>
+      <h3 style="margin:0 0 8px">Newsletter</h3>
+      <p class="muted">Subscribe to product drops and offers.</p>
+      <div class="news"><input placeholder="Your email address"><button>Subscribe</button></div>
+    </div>
+    <div><h3 style="margin:0 0 8px">Shop</h3><div><a href="product.html?slug=toothmagic">ToothMagic Powder</a></div></div>
+    <div><h3 style="margin:0 0 8px">About</h3><div><a href="about.html">Our Story</a></div><div><a href="#">Ingredients</a></div></div>
+    <div><h3 style="margin:0 0 8px">Support</h3><div><a href="shipping-returns.html">Shipping & Returns</a></div><div><a href="#">Privacy Policy</a></div><div><a href="#">Contact</a></div></div>
+  </div>
+  <div style="margin-top:22px;color:var(--muted)">© <span id="year"></span> Rooted Smile</div>
+</footer>
+</div>
+<script src="script.js"></script>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>

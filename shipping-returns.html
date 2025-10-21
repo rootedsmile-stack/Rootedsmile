@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shipping & Returns — RootedSmile</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Shipping and returns policy for RootedSmile.">
+</head>
+<body>
+  <div class="announce">Free shipping for orders over $35</div>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <a href="index.html"><img src="assets/logo-rootedsmile.png" alt="RootedSmile logo"></a>
+      </div>
+      <div class="header-icons">
+        <a href="product.html?slug=toothmagic" title="Cart">
+          <img class="icon" src="assets/icon-cart.svg" alt="Cart">
+        </a>
+      </div>
+    </header>
+
+    <section class="hero-card" style="margin:20px 0">
+      <h1 style="margin-top:0">Shipping & Returns</h1>
+      <h3>Shipping</h3>
+      <ul>
+        <li><strong>Free shipping</strong> for orders over <strong>$35</strong> within the contiguous U.S.</li>
+        <li>Orders ship in 2–3 business days from purchase.</li>
+        <li>Tracking information is emailed when your order ships.</li>
+      </ul>
+
+      <h3>Returns</h3>
+      <ul>
+        <li>Unused, unopened items can be returned within 30 days for a refund.</li>
+        <li>To start a return, email support with your order number.</li>
+        <li>Refunds are issued to the original payment method.</li>
+      </ul>
+
+      <h3>Questions?</h3>
+      <p>Reach us at <a href="mailto:support@rootedsmile.com">support@rootedsmile.com</a>.</p>
+
+      <div class="cta" style="margin-top:12px">
+        <a class="button" href="index.html">Back to Home</a>
+        <a class="button secondary" href="product.html?slug=toothmagic">Shop ToothMagic</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="cols">
+        <div>
+          <h3 style="margin:0 0 8px">Newsletter</h3>
+          <p class="muted">Subscribe to product drops and offers.</p>
+          <div class="news">
+            <input placeholder="Your email address">
+            <button>Subscribe</button>
+          </div>
+        </div>
+        <div>
+          <h3 style="margin:0 0 8px">Shop</h3>
+          <div><a href="product.html?slug=toothmagic">ToothMagic Powder</a></div>
+        </div>
+        <div>
+          <h3 style="margin:0 0 8px">About</h3>
+          <div><a href="about.html">Our Story</a></div>
+          <div><a href="#">Ingredients</a></div>
+        </div>
+        <div>
+          <h3 style="margin:0 0 8px">Support</h3>
+          <div><a href="shipping-returns.html">Shipping & Returns</a></div>
+          <div><a href="#">Privacy Policy</a></div>
+          <div><a href="#">Contact</a></div>
+        </div>
+      </div>
+      <div style="margin-top:22px;color:var(--muted)">© <span id="year"></span> Rooted Smile</div>
+    </footer>
+  </div>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
